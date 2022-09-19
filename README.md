@@ -1,0 +1,1 @@
+# argocd-gitsync-cookalone
