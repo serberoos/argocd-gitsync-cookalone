@@ -4,7 +4,7 @@ metadata:
     labels:
         app: cookalone-web
     name: cookalone-web
-    namespace: cookalone-deploy
+    namespace: cookalone-web
 spec:
     ports:
     - name: cookalone-web
@@ -20,7 +20,7 @@ metadata:
     labels:
         app: cookalone-web
     name: cookalone-web
-    namespace: cookalone-deploy
+    namespace: cookalone-web
 spec:
     selector:
         matchLabels:

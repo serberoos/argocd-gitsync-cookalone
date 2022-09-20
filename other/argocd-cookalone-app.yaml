@@ -1,0 +1,18 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: cookalone-web
+spec:
+  destination:
+    name: ''
+    namespace: cookalone-web
+    server: 'https://kubernetes.default.svc'
+  source:
+    path: ./charts/templates
+    repoURL: 'https://github.com/serberoos/argocd-gitsync-cookalone.git'
+    targetRevision: HEAD
+    directory:
+      jsonnet:
+        tlas:
+          - {}
+  project: default
