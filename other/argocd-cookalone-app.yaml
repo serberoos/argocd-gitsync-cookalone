@@ -11,6 +11,9 @@ spec:
     path: ./charts/templates
     repoURL: 'https://github.com/serberoos/argocd-gitsync-cookalone.git'
     targetRevision: HEAD
+    helm:
+      valueFiles:
+      - values.yaml
     directory:
       jsonnet:
         tlas:
