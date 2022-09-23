@@ -31,7 +31,7 @@ spec:
                 app: cookalone-web
         spec:
             containers:
-            - image: {{ .Values.cookalone-web.image }}
+              image: {{ .Values.cookalone-web.image }}
               imagePullPolicy: Always
               name: cookalone-web
               ports:
