@@ -1,2 +1,2 @@
-cookalone-web:
+cookalone:
   image: 128324953611.dkr.ecr.ap-northeast-2.amazonaws.com/cookalone-dev-ecr:11
