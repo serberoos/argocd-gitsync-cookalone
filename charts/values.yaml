@@ -1,2 +1,2 @@
 cookalone:
-  image: 128324953611.dkr.ecr.ap-northeast-2.amazonaws.com/cookalone-dev-ecr:4
+  image: 128324953611.dkr.ecr.ap-northeast-2.amazonaws.com/cookalone-dev-ecr:1
